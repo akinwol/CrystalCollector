@@ -1,0 +1,65 @@
+/* .row {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+} */
+
+.scores {
+    margin-bottom: 10px;
+}
+
+.amount {
+    border-style: dotted;
+    padding: 10px;
+    border-radius: 50%;
+    border-color: #906078;
+    
+}
+
+
+    
+
+
+/* .mainheader,.lead {
+    color: aliceblue
+} */
+
+
+
+.cont {
+    border-style: dotted;
+    border-color: #484860;
+   /* margin: 2px; */
+   
+}
+
+.card {
+    border-color: #906078;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.card-header {
+    border-color: #906078;
+    background-color: #906078;
+    color: aliceblue;
+}
+
+#button {
+    border-color: #906078;
+    background-color: #906078;
+}
+
+.allcrystals {
+    /* border: #484860 2px solid; */
+    height: 100px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.allcrystals:hover {
+    cursor: pointer;
+}
+
+
+

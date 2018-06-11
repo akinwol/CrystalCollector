@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Javascript link -->
+    <script type="text/javascript" src="assets/javascript/game.js"> </script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Crystal Game</title>
+
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 mainheader">Crystal Collector </h1>
+            <p class="lead"> Press any letter to start
+            </p>
+        </div>
+    </div>
+    <div class="out">
+
+
+        <div class="container">
+            <div class="row" style="text-align: center">
+
+                <div class="col-lg-6 cont">
+
+
+                    <h1>Number to Guess </h1>
+
+                    <h3>
+                        Gueses:
+                        <span class="guessNumber"> </span>
+                    </h3>
+
+
+
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <strong> Guess and Total </strong>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6 scores">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Number to Add</h5>
+                                            <p class="card-text">
+                                                <span class="guessnumber"> </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Total</h5>
+                                            <p class="card-text">
+                                                <span class="totalamount"> 0 </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 cont">
+
+                    <h1>Try and Guess</h1>
+                    <h3> Select a Crystal</h3>
+
+                    <!-- <div class="crystals">
+
+                        <section id="crystal-1" class="allcrystals" data-value=""> 3 </section>
+                        <section id="crystal-1" class="allcrystals" data-value=""> 3 </section>
+                        <section id="crystal-1" class="allcrystals" data-value=""> 3 </section>
+                        <section id="crystal-1" class="allcrystals" data-value=""> 3 </section>
+                    </div> -->
+
+
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                            <img src="assets/images/bluecrystal.png" class="allcrystals" alt="bluecrystal" id="bluecrystal">
+
+
+
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="assets/images/greencrystal.png" class="allcrystals" alt="greencrystal" id="greencrystal">
+
+                        </div>
+
+                        <div class="col-sm-3">
+                            <img src="assets/images/redcrystal.png" class="allcrystals" alt="redcrystal" id="redcrystal">
+
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="assets/images/yellowcrystal.png" class="allcrystals" alt="yellowcrystal" id="yellowcrystal">
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <strong> SCORE </strong>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6 scores">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">WINS</h5>
+                                            <p class="card-text">
+                                                <span class="winamount amount"> 0 </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">LOSS</h5>
+                                            <p class="card-text">
+                                                <span class="lossamount amount"> 0 </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" id="button" class="btn btn-primary">RESTART GAME </a>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+</body>
+
+</html>
