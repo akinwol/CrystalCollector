@@ -11,7 +11,7 @@
     border-style: dotted;
     padding: 10px;
     border-radius: 50%;
-    border-color: #906078;
+    border-color: #FF6B6D;
     
 }
 
@@ -26,27 +26,27 @@
 
 
 .cont {
-    border-style: dotted;
-    border-color: #484860;
+    /* border-style: dotted;
+    border-color: #484860; */
    /* margin: 2px; */
    
 }
 
 .card {
-    border-color: #906078;
+    border-color: #FF6B6D;
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
 .card-header {
-    border-color: #906078;
-    background-color: #906078;
-    color: aliceblue;
+    border-color: #FF6B6D;
+    background-color: #FF6B6D;
+    color: #FFFFFF;
 }
 
 #button {
-    border-color: #906078;
-    background-color: #906078;
+    border-color: #FF3B91;
+    background-color: #FF3B91;
 }
 
 .allcrystals {
@@ -61,5 +61,17 @@
     cursor: pointer;
 }
 
+.jumbotron {
+    background-image: linear-gradient(to right bottom, #dd2bb8, #ff2a76, #ff742d, #f4b600, #a8eb12);
+}
+
+/* .btn:focus, .btn:active {
+    outline: #a8eb12 !important;
+    box-shadow: #f4b600  !important;
+  } */
+
+  .header {
+      color: #FFFFFF;
+  }
 
 
